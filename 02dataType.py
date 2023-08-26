@@ -56,7 +56,8 @@ else:
     print("B greate than A")
 print(type(varBool))
 
-
+x=200.0
+print(isinstance(x, float))
 
 
 
