@@ -17,5 +17,29 @@ print(type(varComp))
 varList=["Sundar", 200, '10', '30', 'Rajan', "Python"]
 print(varList)
 print(type(varList))
+varList.append("Valar")
+varList.append("sridevi")
+varList.remove("Rajan")
+print(varList)
+
+lstLen=len(varList)
+print("Length = ", lstLen)
+
+varTuple=(10,40,65,4,'Sundar', 'Sridevi', '100')
+print(varTuple)
+print((len(varTuple)))
+print(type(varTuple))
+
+varDic={"name": "Sundar", "age": "40", "City": "Fairfax"}
+print(varDic)
+name=varDic.get('name')
+age=varDic['age']
+print("Name = ", name)
+print("Age = ", age)
+print(len(varDic.keys()))
+print(varDic.values())
+print(type(varDic))
+
+
 
 
