@@ -1,3 +1,4 @@
+import datetime
 
 print("This is Python data type example")
 
@@ -39,6 +40,28 @@ print("Age = ", age)
 print(len(varDic.keys()))
 print(varDic.values())
 print(type(varDic))
+
+varDate=datetime.datetime.now()
+print(varDate)
+print(datetime.date)
+print(varDate.date())
+
+a=100
+b=50
+varBool=(a==b)
+print(varBool)
+if(a>b):
+    print("A is greater than B")
+else:
+    print("B greate than A")
+print(type(varBool))
+
+
+
+
+
+
+
 
 
 
